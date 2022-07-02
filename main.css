@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(51, 151, 185);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* chiều cao*/
+}
+.wapper{
+    background: #fff;
+    border-radius: 10px;
+    width: 400px;
+    padding:20px
+}
+.tiltel{
+    font-size: 22px;
+}
+.content{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:5px;
+    margin-top: 20px;
+}
+.content li {
+    background: rgb(51, 151, 185);
+    color: #fff;
+    border-radius: 3px;
+    list-style: none;
+    margin:3px 5px;
+    padding: 10px;
+}
+.content li i {
+    font-size:15px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.content input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 10px;
+    flex: 1;
+}
+.remove-btn-all{
+    background: rgb(51, 151, 185);
+    border: none ;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size:15px;
+    margin-top:10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.remove-btn-all:hover{
+    background: rgb(51, 151, 185);
+}
